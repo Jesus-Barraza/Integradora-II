@@ -1,0 +1,40 @@
+Sueño:
+-Tiempo
+-Calidad
+-Horario
+-Siestas
+
+Alimentación:
+-Número de comidas
+-Horario
+-Calidad de consumo
+-Cantidad
+-Calidad de comida
+
+Tecnología:
+-Tiempo libre
+-Uso del tiempo libre
+-Calidad de consumo
+
+IA:
+-Uso de la IA
+-Aplicación de la IA
+-Capacidad sin la IA
+
+
+Encuesta inicial (General):
+-Estudio
+-Trabajo
+-Escuela
+-Especial
+-Pasatiempos
+-Ubicación
+
+
+
+Objetivo general: Investigar costumbres en el ámbito del sueño, alimentación y el uso de la tecnología que puedan alterar el agotamiento académico.
+
+Objetivos específicos:
+- Correlacionar las costumbres en el ámbito del sueño con el agotamiento académico
+- Correlacionar las costumbres de la alimentación y su relación con el agotamiento académico.
+- Correlacionar el uso de las tecnologías y la IA y su relación con el agotamiento académico.  

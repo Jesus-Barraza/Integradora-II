@@ -1,0 +1,18 @@
+-- Crear el usuario
+CREATE ROLE registersOP WITH
+  LOGIN
+  CREATEDB
+  CREATEROLE
+  INHERIT
+  CONNECTION LIMIT -1
+  PASSWORD '123456';
+
+-- Los privilegios
+GRANT ALL PRIVILEGES ON DATABASE Integrator TO registersOP;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO registersOP;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO registersOP;
+GRANT ALL PRIVILEGES ON ALL FUNCTIONS IN SCHEMA public TO registersOP;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO registersOP;
+
+COMMENT ON ROLE "registersOP" IS 'Aquel que lo ve todo pero no puede intervenir...
+¿Cuántas referencias puedo meter antes de que me expulsen?';
